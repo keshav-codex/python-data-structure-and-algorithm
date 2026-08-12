@@ -13,7 +13,7 @@ print(mixed)
 numbers = 10, 20, 30
 print(numbers)
 
-# Assignment
+# Assignment Unpacking
 numbers = (10, 20, 30)
 a, b, c = numbers
 print(a)
