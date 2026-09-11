@@ -50,3 +50,22 @@ print(numbers.index(20))
 # Tuple cannot be modified
 # numbers[0] = 100
 # TypeError
+
+# packing and unpacking
+
+#packing
+a="Keshav"
+b=27
+c="Python"
+
+student = a,b,c
+
+print(student)
+
+# Unpack it into three variables and print:
+
+Name, Age, Skill = student
+
+print(Name)
+print(Age)
+print(Skill)
